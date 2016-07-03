@@ -1,21 +1,15 @@
-# Real-Bot 
+# DEVE Omar-Real
 
 
-
-
-# developer @Omar_Real7
-
-# Installation التنصيب
+# developer @Omar_Real
 
 ```sh
-# Install dependencies.
-# Tested on Ubuntu 14.04. For other OSs, check out https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 
-# Let's install the bot.
-cd $HOME
-git clone https://github.com/Omar-moon/Real-Bot.git -b supergroups
-cd TeleSeed
+# install  التنصيب
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes
+
+https://github.com/DEVOmarReal/OMARREAL.git
+cd OMARREAL
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -23,8 +17,8 @@ chmod +x launch.sh
 ### One command
 To install everything in one command (useful for VPS deployment) on Debian-based distros, use: على سيرفر vps
 ```sh
-#https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/Omar-moon/Real-Bot.git -b supergroups && cd TeleSeed && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+# install on server VPS تنصيب على سيرفر vps
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/DEVOmarReal/OMARREAL.git && cd OMARREAL && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
@@ -44,12 +38,14 @@ Open ./data/config.lua and add your ID to the "sudo_users" section in the follow
   }
 ```
 
-# Speclal thanks For Mustafa Ip
+# Speclal thanks For ALNAZE 
 
-# Speclal thanks For MOHAMED DEVT
+# Speclal thanks For ZEOON
 
 # Dev Channel
 
-@linuxch
+@AXIS_BOTcena
 
 @iq_dev8
+
+@CH_ZEOONE
