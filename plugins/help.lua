@@ -84,7 +84,7 @@ local help5 =[[📜 ⚡️ Real<>Bot√ ⚡️
 🔒 /close video :: لمنع من ارسال الفيدويهات 🔒
 🔒 /close all ::  لمنع جميع الوسائط 🔒
 🔒 /close text :: لقفل محادثة المجموعة 🔒
-🔒 /media warm قفل الميديا 🔒
+🔒 /m d قفل الميديا 🔒
 
 💯••••••••••••••••••••••••••••••••••••••••💯
 
@@ -105,7 +105,7 @@ local help5 =[[📜 ⚡️ Real<>Bot√ ⚡️
 🔶 /open videb :: الغاء قفل الفيديوهات 🔓
 🔶 /open all :: الغاء قفل جميع الوسائظ 🔓
 🔶 /open text :: الغاء قفل المحادثة 🔓
-🔶 /media off  ::  كك الغاء قفل الميديا 🔓
+🔶 /m b  ::  كك الغاء قفل الميديا 🔓
 
 Made By 🔹@Omar_Real  ]]
 reply_msg(reply_id, help5, ok_cb, false)
