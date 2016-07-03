@@ -230,11 +230,11 @@ function create_config( )
     "NewGroup",
 	"lockreply",
 	"plugins",
-	"run"
-	"run2"
-	"welcome"
-	"getlink"
-	"version"
+	"run",
+	"run2",
+	"welcome",
+	"getlink",
+	"version",
     },
     sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
