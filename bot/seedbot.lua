@@ -224,7 +224,7 @@ function create_config( )
     "HI",
     "id",
     "dev",
-    "msg_checks"
+    "msg_checks",
     "kickbot",
     "link",
     "delmsg",
