@@ -223,6 +223,8 @@ function create_config( )
     "block",
     "HI",
     "id",
+    "dev",
+    "msg_checks"
     "kickbot",
     "link",
     "delmsg",
@@ -233,8 +235,6 @@ function create_config( )
 	"run2",
 	"Welcome",
 	"getlink",
-	"msg_cheks",
-	"dev",
 	"version",
 	
     },
