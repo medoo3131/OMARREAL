@@ -4,7 +4,7 @@ function run (msg, matches)
 
 local reply_id = msg ['id']
 if matches[1]==  'help' and is_momod(msg) then
-local omar = [[🔋 ⚡️ RealBot√ ⚡️ 🔋
+local omar = [[🔋 ⚡️ OMARREAL ⚡️ 🔋
 
 📌🔶➖🔶➖🔷➖🔶➖🔷📌
 
@@ -26,7 +26,7 @@ if matches[1]== 'help' and not is_momod(msg) then
     end
 local reply_id = msg ['id']
 if matches[1]==  'help4' and is_momod(msg) then
-local help4 = [[📜 ⚡️🔋 Real<>Bot √ ⚡️🔋
+local help4 = [[📜 ⚡️🔋 OMARREAL ⚡️🔋
 🔆✨✨✨✨✨✨✨✨🔆
 📱 /clean about :: تنظيف الوصف
 📱 /clean rules :: تنظيف القوانين
@@ -44,7 +44,7 @@ if matches[1]== 'hel4' and not is_momod(msg) then
     end
 local reply_id = msg ['id']
 if matches[1]==  'help3' and is_momod(msg) then
-local help3 = [[ 📜 ⚡️ Real<>Bot√ ⚡️ 
+local help3 = [[ 📜 ⚡ OMARREAL ⚡️ 
 🔘 ☁️☁️☁️☁️☁️☁️☁️
 ⌛ /kick :: طرد عضو
 ⌛ /ban ::  حظر عضو
@@ -65,7 +65,7 @@ end
 
 local reply_id = msg ['id']
 if matches[1]==  'help5' and is_momod(msg) then
-local help5 =[[📜 ⚡️ Real<>Bot√ ⚡️ 
+local help5 =[[📜 ⚡️ OMARREAL ⚡️ 
 
 🔶 اوامر قفل وسائظ المجموعة 🔒✅
 
@@ -113,7 +113,7 @@ end
 
 local reply_id = msg ['id']
 if matches[1]==  'help2' and is_momod(msg) then
-local help2 = [[📜 ⚡️ Real<>Bot √ ⚡️ 
+local help2 = [[📜 ⚡️ OMARREAL ⚡️ 
 🕤➖➖➖➖➖➖➖➖🕤
 🔷 /rules :: لأظهار القوانين 
 🔷 /about :: لأظهار الوصف 
