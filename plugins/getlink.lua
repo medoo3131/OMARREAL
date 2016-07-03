@@ -1,24 +1,26 @@
+-- Made By @Omar_Real
+
 do
 
 function run(msg, matches)
     local reply_id = msg ['id']
        if not is_momod(msg) then
-        local text = "للمدرأء فقط ❌💠"..'\n\n'
+        local omar = "للمدرأء فقط ❌💠"..'\n\n'
            ..'🔶 MSG BY @'..msg.from.username..'\n'
-           reply_msg(reply_id, text, ok_cb, false)
+           reply_msg(reply_id, omar, ok_cb, false)
        end
     local data = load_data(_config.moderation.data)
       local group_link = data[tostring(msg.to.id)]['settings']['set_link']
        if not group_link then 
-           local text = "قم 🔱 بأنشاء رابط 🔗 اولا ✅ من خلال الامر (relink) 🔷"..'\n\n'
+           local omar = "قم 🔱 بأنشاء رابط 🔗 اولا ✅ من خلال الامر (relink) 🔷"..'\n\n'
            ..'🔶 MSG BY @'..msg.from.username..'\n'
-        return reply_msg(reply_id, text, ok_cb, false)
+        return reply_msg(reply_id, omar, ok_cb, false)
        end
-         local text = "رابط المجموعة 🔧👥 :\n"..group_link
+         local omar = "رابط المجموعة 🔧👥 :\n"..group_link
           send_large_msg('user#id'..msg.from.id, text.."\n", ok_cb, false)
            local text = "تم ✅ ارسال الرابط الى الخاص ♻👤"..'\n\n'
            ..'🔶 MSG BY @'..msg.from.username..'\n'
-           reply_msg(reply_id, text, ok_cb, false)
+           reply_msg(reply_id, omar, ok_cb, false)
 end
 
 return {
