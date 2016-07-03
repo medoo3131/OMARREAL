@@ -233,6 +233,7 @@ function create_config( )
 	"run2",
 	"Welcome",
 	"getlink",
+	"msg_cheks"
 	"version",
 	
     },
