@@ -228,7 +228,7 @@ function create_config( )
     "delmsg",
     "NewGroup",
 	"lockreply",
-	"plugins",,
+	"plugins",
 	"run",
 	"run2",
 	"Welcome",
