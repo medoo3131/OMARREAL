@@ -231,7 +231,7 @@ function create_config( )
 	"plugins",
 	"run",
 	"run2",
-	"welcome",
+	"Welcome",
 	"getlink",
 	"version",
     },
