@@ -48,4 +48,6 @@ Open ./data/config.lua and add your ID to the "sudo_users" section in the follow
 
 @iq_dev8
 
-@CH_ZEOONE
+@iq_devloper
+
+@CH_ZEOONE *_*
